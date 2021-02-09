@@ -1,0 +1,64 @@
+<html lang="en">
+ <head>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+ </head>
+ <body>
+<header>
+  <!-- Fixed navbar -->
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img
+        src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png"
+        height="30"
+        alt=""
+        loading="lazy"
+      />
+      MDBootstrap
+    </a>
+  </div>
+  
+</nav>
+</header>
+
+<br>
+ <h1> this is Free template from MDBootstrap website<h1>
+<br>
+<div class="card bg-dark text-white">
+  <img
+    src="https://mdbootstrap.com/img/new/slides/017.jpg"
+    class="card-img"
+    alt="..."
+  />
+  <div class="card-img-overlay">
+    <h5 class="card-title">Card title</h5>
+    <br>
+    <br>
+    <p class="card-text">
+     <h1> This is <b> mdbootstrap </b> my friends. <h1>
+    </p>
+  
+    {% block content %}
+This will be overriden by the home page
+{% endblock %}
+  </div>
+</div> 
+</body>
+</html>
